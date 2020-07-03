@@ -6,65 +6,88 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>
     Witnapat Homepage
-    </title>
+  </title>
   <link rel="stylesheet" href="2_7_2020.css">
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.js" integrity="sha256-DrT5NfxfbHvMHux31Lkhxg42LY6of8TaYyK50jnxRnM=" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.js"
+    integrity="sha256-DrT5NfxfbHvMHux31Lkhxg42LY6of8TaYyK50jnxRnM=" crossorigin="anonymous"></script>
   <script src="bgbutton.js"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"></script>
+
 </head>
 
 <body>
+  <div class="container">
     <a href="https://www.facebook.com/witnapat" target="_blank" title="Witnapat Facebook">
-      <img style=" margin-left: 200px; width: 20%; float: left; " src="https://ca.slack-edge.com/T016XJJMALQ-U0162QU6A8N-673a14030dc1-512">
+      <img class="border border-dark rounded-sm" style=" width: 220px; float: left; margin-left: 15%;"
+        src="https://ca.slack-edge.com/T016XJJMALQ-U0162QU6A8N-673a14030dc1-512">
     </a>
-    <p style="text-align: center; font-size: 60px;">Witnapat Champaruang</p>
-    <p style="text-align: center; font-size: 60px;">วิชญ์นพัฒน์ จำปาเรือง</p>
+    <p style="margin-top: 50px;  text-align: center; font-size: 50px;">Witnapat Champaruang</p>
+    <p style="text-align: center; font-size: 50px;">วิชญ์นพัฒน์ จำปาเรือง</p>
     <center>
-    <form action="https://google.com/search" method="get" target=_blank>
-      <input type="text" name="q">
-      <button type="submit" class="btn btn-primary mb-2">Search</button>
-    </form>
-    
-    <br><br>
-    <h1>About me</h1>
-    <table style="font-size: 150%;">
-      <tr>
-        <th>ความคาดหวัง</th>
-        <td>เรียนได้รู้เรื่องและมีวานทำ</td>
-      </tr>
-      <tr>
-        <th>อาหารจานโปรด</th>
-        <td>ข้าวหมูกระเทียม</td>
-      </tr>
-      <tr>
-        <th>สถานที่ท่องเที่ยวที่ชื่นชอบ</th>
-        <td>-</td>
-      </tr>
-      <tr>
-        <th>ทักษะการเขียนโปรแกรม</th>
-        <td>c/c++</td>
-      </tr>
-      <tr>
-        <th>งานอดิเรก</th>
-        <td>เล่นเกม</td>
-      </tr>
-    </table>
-  </center>
-  <center>
-    <div>
-      <p>Here are the links to my friends’s homepage, as well as the links to my favorite pages.</p>
-      <button onclick="document.location='https://mike.cpe.ku.ac.th/~un'">Link to Prof.Un's homepage</button>
-      <button class="buttonC" onclick="document.location='https://mike.cpe.ku.ac.th/01204111'">Link to 01204111</button>
-      <button class="buttonD" onclick="document.location='https://www.facebook.com/groups/514323486104989'"><span>Link to 111FB4CPE34</span></button>
-      <button class="buttonC" onclick="document.location='https://www.facebook.com/tawanchai.champ'"><span>Link to std12</span></button>
-      <button class="buttonD" onclick="document.location='https://www.facebook.com/profile.php?id=100003801022574'"><span>Link to std13</span></button>
-    </div>
-  ChangeBackground
-  <label class="switch" >
-    <input type="checkbox" id="bg">
-    <span class="slider round"></span>
-  </label>
-  </center>
+      <form action="https://google.com/search" method="get" target=_blank>
+        <input style="border-radius: 3px; border: 1px solid black; height: 40px;" type="text" name="q">
+        <button type="submit" class="btn btn-primary" style="height: 40px;">Search</button>
+      </form>
 
+      <h1>About me</h1>
+      <div style="width: 70%;">
+      <div class="table-responsive">
+        <table class="table table-bordered">
+          <tr>
+            <th>ความคาดหวัง</th>
+            <td>เรียนได้รู้เรื่องและมีงานทำ</td>
+          </tr>
+          <tr>
+            <th>อาหารจานโปรด</th>
+            <td>ข้าวหมูกระเทียม</td>
+          </tr>
+          <tr>
+            <th>สถานที่ท่องเที่ยวที่ชื่นชอบ</th>
+            <td>-</td>
+          </tr>
+          <tr>
+            <th>ทักษะการเขียนโปรแกรม</th>
+            <td>c/c++</td>
+          </tr>
+          <tr>
+            <th>งานอดิเรก</th>
+            <td>เล่นเกม</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    </center>
+    <center>
+      <div>
+        <p>Here are the links to my friends’s homepage, as well as the links to my favorite pages.</p>
+        <button class="btn btn-primary" onclick="document.location='https://mike.cpe.ku.ac.th/~un'">Link to Prof.Un's homepage</button>
+        <button class="btn btn-secondary buttonC" onclick="document.location='https://mike.cpe.ku.ac.th/01204111'">Link to
+          01204111</button>
+        <button class="btn btn-success buttonD" onclick="document.location='https://www.facebook.com/groups/514323486104989'"><span>Link
+            to 111FB4CPE34</span></button>
+        <button class="btn btn-danger buttonC" onclick="document.location='https://www.facebook.com/tawanchai.champ'"><span>Link to
+            std12</span></button>
+        <button class="btn btn-info buttonD"
+          onclick="document.location='https://www.facebook.com/profile.php?id=100003801022574'"><span>Link to
+            std13</span></button>
+      </div>
+      ChangeBackground
+      <label class="switch">
+        <input type="checkbox" id="bg">
+        <span class="slider round"></span>
+      </label>
+    </center>
+  </div>
 
 </body>
 
