@@ -8,8 +8,8 @@ table, th, td {
     border-width: 2px;
 }
 th{
-    background-color: grey;
-    color: honeydew;
+    background-color: #ffff00;
+    color: black;
 }
 
 .buttonC {
@@ -21,7 +21,7 @@ th{
 .buttonD {
     display: inline-block;
     border-radius:4px;
-    background-color: #f4511e;
+    background-color: #39ff14;
     color: #FFFFFF;
     text-align: center;
     padding:2px;
